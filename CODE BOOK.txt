@@ -1,0 +1,33 @@
+Original data:
+
+train_x: x_train.txt
+train_y: y_train.txt
+train_subject: subject_train.txt
+test_x: x_test.txt
+test_y: y_test.txt
+test_subject: subject_test.txt
+features: features.txt
+activity: activity_labels.txt
+
+Merged data:
+
+merge_x: the merged data
+merge_subject: the merged subjects
+
+Mean & standard deviation
+
+measures: the columns containing the mean an Std from features
+
+Naming & labeling:
+
+act_label:
+merge_y: the merged labels
+final_data: the final data
+
+Tidy data set:
+
+subject_len: # of columns in the merge_subject table
+act_len: # of rows in the activity table
+column_len: # of columns in the final_data table
+result: the table containing the calculated means
+row: counter in the "for" cycle
